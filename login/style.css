@@ -1,0 +1,129 @@
+ 
+body{
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgb(221, 193, 155);
+}
+
+fieldset {
+    background-color: rgb(226, 182, 125);
+    text-align: left;
+    display: block;
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: 2px groove rgb(165, 125, 38) ;
+    border-radius: 5px;
+    
+  }
+
+
+legend{
+    display: inline-block;
+    border: 2px groove rgb(165, 125, 38) ;
+    border-radius: 5px ;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+legend:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px rgb(165, 125, 38);
+    background-color:rgb(223, 191, 150) ;
+}
+
+.login-form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.login-form div {
+    margin: 8px;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=password]{
+    display: inline;
+    background-color:rgb(223, 191, 150);
+    border: 1px solid #ddc868cc;
+    border-radius: 5px;
+    padding: 4px;
+    height: 30px;
+    width:60%;
+   
+}
+input[type=email]{
+    margin-left: 30px;
+}
+input[type=date]{
+    margin-left: 10px;
+}
+input[type=checkbox],
+input[type=radio] {
+    margin: 15px 5px 10px 0;
+}
+
+label {
+    text-align: left;
+    display: inline;
+  }
+.btn{
+    text-align: center; 
+}  
+.login{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: #a78423;
+    transition: 0.3s;
+}
+.login:hover{
+    background: rgb(122, 95, 5);
+    color: aliceblue;
+    cursor:pointer;
+}
+
+.noData {
+    display: inline-block;
+    color: red;
+    font-size: medium;
+}
+
+#checkBirthday {
+    color: rgb(39, 160, 39);
+    font-size: small;
+}
+
+#checkEmail {
+    color: rgb(39, 160, 39);
+    font-size: small;
+}
+
+#checkPassword {
+    color: rgb(39, 160, 39);
+    font-size: small;
+}
+
+#checkUsername {
+    color: rgb(39, 160, 39);
+    font-size: small;
+}
+
+#LightDark {
+    color: white;
+    border: none;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    background: #a78423;
+    transition: 0.3s;
+}
+
+
+*:focus {outline:none;}

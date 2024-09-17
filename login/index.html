@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7440156d1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button type="button" id="LightDark">
+        Dark
+    </button>
+
+    <fieldset>
+        
+        <legend >Login Info</legend>
+
+        <form method="post" action="#" class="login-form" >
+
+            <div class="Username">
+                <label for="Username">
+                    Username :
+                    <input type="text" placeholder="Enter Username" name="Username" id="Username">
+                    <span id="checkUsername"></span>
+                    <span id="noUsername" class="noData"></span>
+                </label>
+                
+            </div>
+
+            <div class="Password">
+                <label for="Password">
+                    Password :
+                    <input type="password" name="Password" id="Password" placeholder="Enter Password">
+                    <span id="checkPassword"></span>
+                    <span id="noPassword" class="noData"></span>
+                </label>
+            </div>
+
+            <div class="Email">
+                <label for="Email">
+                    Email :    
+                    <input type="Email" name="Email" id="Email" placeholder="Enter Email" >
+                    <span id="checkEmail"></span>
+                    <span id="noEmail" class="noData"></span>
+                </label>
+                
+            </div>
+
+            <div class="Birthday">
+                <label for="Birthday">
+                    Birthday :
+                    <input type="date" id="Birthday" name="Birthday">
+                    <span id="checkBirthday"></span>
+                    <span id="noBirthday" class="noData"></span>
+                </label>
+            </div>
+            
+            
+            <div id="gender">
+                <label for="Male">
+                    Male
+                    <input type="radio" id="Male" name="gender">
+                </label>
+
+                <label for="Female">
+                    Female
+                    <input type="radio" id="Female" name="gender">
+                </label>    
+            </div>
+
+            <div>
+                <label for="Terms">
+                    Accept Terms:
+                    <input type="checkbox" name="Accept" id="Accept">
+                </label>
+            </div>
+
+            <div class="btn" >
+                <button type="button" class="login"onclick="buttonC()" >
+                    Login
+                </button>
+            </div>
+
+        </form>
+    </fieldset>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
